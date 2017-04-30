@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/25 20:30:45.000.517,=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/29 23:24:59.000.340,=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/29 23:28:16.000.401,=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/29 23:37:52.397,=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/29 23:41:29.659,C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uSB.fmx=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2017/04/29 23:41:29.659,C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uSB.pas=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/29 23:41:37.873,C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\pSB.dproj=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/04/30 00:18:35.949,=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit2.pas</Transaction>
+    <Transaction>2017/04/30 00:19:37.837,C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uNameChange.fmx=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit2.fmx</Transaction>
+    <Transaction>2017/04/30 00:19:37.837,C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uNameChange.pas=C:\Users\adria\OneDrive\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit2.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
