@@ -1,7 +1,7 @@
 <h1>Scammer Bingo FMX</h1>
 A Scammer Bingo that allows you to edit the buttons and allows you to have some fun
 <br/>
-<a href="">
+<a href="https://github.com/Inforcer25/Scammer-Bingo-FMX/raw/master/Scammer%20Bingo%20FMX.exe">
   <img src="http://i.imgur.com/qoGP19r.png" alt="Download">
 </a>
 
