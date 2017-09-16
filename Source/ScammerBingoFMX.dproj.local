@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/09/16 11:31:08.000.749,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/09/16 11:34:23.000.561,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uSBF.fmx</Transaction>
+    <Transaction>2017/09/16 11:34:23.000.561,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uSBF.pas</Transaction>
+    <Transaction>2017/09/16 11:34:26.000.848,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\pSBF.dproj</Transaction>
+    <Transaction>2017/09/16 11:34:39.000.666,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\pSBF.dproj=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\ScammerBingoFMX.dproj</Transaction>
+    <Transaction>2017/09/16 11:35:18.000.086,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.pas</Transaction>
+    <Transaction>2017/09/16 11:35:26.000.421,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.dfm=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uDataModule.dfm</Transaction>
+    <Transaction>2017/09/16 11:35:26.000.421,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uDataModule.pas</Transaction>
+    <Transaction>2017/09/16 11:55:11.000.366,=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.pas</Transaction>
+    <Transaction>2017/09/16 11:55:19.000.646,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uEditBox.pas=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.pas</Transaction>
+    <Transaction>2017/09/16 11:55:19.000.646,C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\uEditBox.fmx=C:\Users\adria\Documents\Embarcadero\Studio\Projects\Scammer Bingo FMX\Unit1.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<POSXVM iOSSimulator="iPhone5"/>
+		<NoProfile Android="AVD_for_Nexus_5_by_Google"/>
+	</ActiveMobileDevice>
+</BorlandProject>

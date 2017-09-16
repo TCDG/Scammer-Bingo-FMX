@@ -1,0 +1,253 @@
+object frmmain: Tfrmmain
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = Single
+  Caption = 'Scammer Bingo FMX'
+  ClientHeight = 401
+  ClientWidth = 583
+  StyleBook = DataModule1.stylbkcopperdark
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object tlbtop: TToolBar
+    Size.Width = 583.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lbl1: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 583.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Scammer Bingo FMX'
+      TabOrder = 0
+    end
+  end
+  object tbc1: TTabControl
+    Align = Client
+    Size.Width = 583.000000000000000000
+    Size.Height = 272.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Sizes = (
+      583s
+      242s
+      583s
+      242s)
+    object tbtmbingo: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 16.000000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = True
+      Size.Width = 63.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Bingo'
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 32.000000000000000000
+      object btn1: TButton
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 16.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'btn1'
+        TextSettings.Font.Size = 14.000000000000000000
+        OnClick = btn1Click
+      end
+      object btn2: TButton
+        StyledSettings = [Family, Style, FontColor]
+        Position.X = 200.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'btn2'
+        TextSettings.Font.Size = 14.000000000000000000
+        OnClick = btn2Click
+      end
+      object btn3: TButton
+        Position.X = 384.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'btn3'
+        OnClick = btn3Click
+      end
+      object btn4: TButton
+        Position.X = 16.000000000000000000
+        Position.Y = 88.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        Text = 'btn4'
+        OnClick = btn4Click
+      end
+      object btn5: TButton
+        Position.X = 200.000000000000000000
+        Position.Y = 88.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        Text = 'btn5'
+        OnClick = btn5Click
+      end
+      object btn6: TButton
+        Position.X = 384.000000000000000000
+        Position.Y = 88.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'btn6'
+        OnClick = btn6Click
+      end
+      object btn7: TButton
+        Position.X = 16.000000000000000000
+        Position.Y = 160.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = 'btn7'
+        OnClick = btn7Click
+      end
+      object btn8: TButton
+        Position.X = 200.000000000000000000
+        Position.Y = 160.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = 'btn8'
+        OnClick = btn8Click
+      end
+      object btn9: TButton
+        Position.X = 384.000000000000000000
+        Position.Y = 160.000000000000000000
+        Size.Width = 177.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 8
+        Text = 'btn9'
+        OnClick = btn9Click
+      end
+    end
+    object tbtmsettings: TTabItem
+      CustomIcon = <
+        item
+        end>
+      TextSettings.Font.Size = 16.000000000000000000
+      StyledSettings = [Family, Style, FontColor]
+      IsSelected = False
+      Size.Width = 79.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Settings'
+      ExplicitSize.cx = 86.000000000000000000
+      ExplicitSize.cy = 32.000000000000000000
+      object grpstyle: TGroupBox
+        StyledSettings = [Family, Style, FontColor, Other]
+        Position.X = 8.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 81.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Style:'
+        TextSettings.Font.Size = 16.000000000000000000
+        TabOrder = 0
+        object cbbstyle: TComboBox
+          Items.Strings = (
+            'Copper Dark'
+            'Jet'
+            'Vapor')
+          Position.X = 24.000000000000000000
+          Position.Y = 36.000000000000000000
+          Size.Width = 257.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnChange = cbbstyleChange
+        end
+      end
+    end
+  end
+  object tlbbottom: TToolBar
+    Align = Bottom
+    Position.Y = 353.000000000000000000
+    Size.Width = 583.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object lblscore: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 583.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Score: 0'
+      TabOrder = 0
+    end
+    object btnreset: TButton
+      Align = Right
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 484.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 89.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Reset Score'
+      OnClick = btnresetClick
+    end
+    object lbl2: TLabel
+      Align = Left
+      StyledSettings = [Family, Style, FontColor]
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 87.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      Text = 'Edit Mode:'
+      TabOrder = 3
+    end
+    object swtcheditmode: TSwitch
+      Align = Left
+      IsChecked = False
+      Position.X = 97.000000000000000000
+      Position.Y = 11.000000000000000000
+      Scale.X = 0.800000011920928900
+      Scale.Y = 0.800000011920928900
+      Size.Width = 58.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+end

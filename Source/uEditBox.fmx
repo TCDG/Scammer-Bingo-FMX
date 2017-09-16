@@ -1,0 +1,78 @@
+object frmedit: Tfrmedit
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = Single
+  ClientHeight = 136
+  ClientWidth = 316
+  Position = MainFormCenter
+  StyleBook = DataModule1.stylbkcopperdark
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object edtvalue: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Text = 'gfhgf'
+    TextSettings.Font.Size = 14.000000000000000000
+    Position.X = 14.000000000000000000
+    Position.Y = 51.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Style, FontColor]
+    OnKeyDown = edtvalueKeyDown
+  end
+  object lbl1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Top = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 20.000000000000000000
+    TextSettings.HorzAlign = Center
+    Text = 'Enter new text below'
+    TabOrder = 1
+  end
+  object tlb1: TToolBar
+    Align = Bottom
+    Position.Y = 96.000000000000000000
+    Size.Width = 316.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnok: TButton
+      Align = Right
+      ModalResult = 1
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 249.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 62.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Ok'
+      OnClick = btnokClick
+    end
+    object btncancel: TButton
+      Align = Left
+      ModalResult = 2
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 62.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Cancel'
+      OnClick = btncancelClick
+    end
+  end
+end
